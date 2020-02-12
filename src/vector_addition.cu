@@ -57,7 +57,7 @@ void VecAdd(const float* A, const float* B, float* C, int numElements) {
 	}
 }
 
-int main() {
+int vector_main() {
 	cudaError_t err = cudaSuccess;
 	int numElements = 500;
 	size_t size = numElements * sizeof(float);
